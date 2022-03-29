@@ -1,0 +1,23 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": "true",
+  "scripts": {
+    "build": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "generate-evb": "^1.0.3"
+  },
+  "enigmavb": {
+    "evbCliPath": "C:/Program Files (x86)/Enigma Virtual Box/enigmavbconsole.exe",
+    "projectName": "build/manifest.evb",
+    "inputExe": "./foo/The Amazing Lib.exe",
+    "outputExe": "build/amazingLib.exe",
+    "path2Pack": "./foo"
+  }
+}
