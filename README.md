@@ -14,9 +14,6 @@ You can modify the props paths inside `enigmavb` of package.json as you need
 
 ### Using CLI
 ```bash
-npm i
-```
-```bash
 npm run build
 ```
 
